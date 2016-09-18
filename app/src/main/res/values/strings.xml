@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Single Screen App</string>
+    <string name="Name">Shaud\'s Manga Zone</string>
+    <string name="About">Welcome to Manga Zone here we pride ourselves on delivering the best manga to you. Visit us today !</string>
+    <string name="Location">Crystal Heights, St. James, Barbados</string>
+    <string name="Call">(246) 269-2956</string>
+    <string name="HoursTitle">Opening Hours</string>
+</resources>
