@@ -32,142 +32,78 @@
         android:layout_below="@+id/businessName"
         android:orientation="vertical">
 
-        <LinearLayout
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_weight="1">
-
-            <ImageView
-                android:id="@+id/iconInfo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="16dp"
-                android:src="@mipmap/ic_info_black_24dp"/>
-
-            <TextView
-                android:id="@+id/info"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:text="@string/About"/>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_weight="1">
-
-            <ImageView
-                android:id="@+id/iconLocation"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="16dp"
-                android:src="@mipmap/ic_location_on_black_24dp"/>
-
-            <TextView
-                android:id="@+id/location"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:text="@string/Location"
-                android:textAppearance="?android:textAppearanceMedium"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_weight="1">
-
-            <ImageView
-                android:id="@+id/iconEmail"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:src="@mipmap/ic_email_black_24dp"/>
-
-            <TextView
-                android:id="@+id/email"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginLeft="16dp"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:text="smz@gmail.com"/>
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_weight="1">
-
-            <ImageView
-                android:id="@+id/iconCall"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="16dp"
-                android:layout_marginTop="16dp"
-                android:src="@mipmap/ic_call_black_24dp"/>
-
-            <TextView
-                android:id="@+id/call"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginLeft="16dp"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:text="@string/Call"/>
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:drawableLeft="@mipmap/ic_info_black_24dp"
+            android:drawablePadding="16dp"
             android:layout_weight="1"
-            android:orientation="vertical">
+            android:text="@string/About"/>
 
-            <TextView
-                android:id="@+id/hoursTitle"
-                android:layout_weight="1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginLeft="16dp"
-                android:layout_marginRight="16dp"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:text="@string/HoursTitle"/>
+        <TextView
+            android:id="@+id/location"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:text="@string/Location"
+            android:drawableLeft="@mipmap/ic_location_on_black_24dp"
+            android:drawablePadding="16dp"
+            android:layout_weight="1"
+            android:textAppearance="?android:textAppearanceMedium"/>
 
-            <TextView
-                android:id="@+id/hours"
-                android:layout_weight="1"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_margin="16dp"
-                android:textAppearance="?android:textAppearanceMedium"
-                android:text="Monday to Friday - 8:00 AM to 5:00 PM"/>
+        <TextView
+            android:id="@+id/email"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:drawableLeft="@mipmap/ic_email_black_24dp"
+            android:drawablePadding="16dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:layout_weight="1"
+            android:text="@string/email"/>
 
-        </LinearLayout>
+        <TextView
+            android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:drawableLeft="@mipmap/ic_call_black_24dp"
+            android:drawablePadding="16dp"
+            android:layout_weight="1"
+            android:text="@string/Call"/>
 
+        <TextView
+            android:id="@+id/hoursTitle"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="@string/HoursTitle"/>
+
+        <TextView
+            android:id="@+id/hours"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:text="@string/hours"/>
 
     </LinearLayout>
-
 
 </RelativeLayout>

@@ -5,4 +5,6 @@
     <string name="Location">Crystal Heights, St. James, Barbados</string>
     <string name="Call">(246) 269-2956</string>
     <string name="HoursTitle">Opening Hours</string>
+    <string name="hours">Monday to Friday - 8:00 AM to 5:00 PM</string>
+    <string name="email">smz@gmail.com</string>
 </resources>
